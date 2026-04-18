@@ -18,6 +18,10 @@ export const Card = () => {
     getProduct();
   }, []);
 
+  const handleAddItemCart = () => {
+    
+  }
+
   return (
     <>
     {product.map((item)=>(
