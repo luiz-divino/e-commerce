@@ -7,3 +7,14 @@ export interface IProduct {
   price: number
   images: string
 }
+
+export interface CartContextData {
+  cartItems: IProduct[];
+  setCartItems: (items: IProduct[]) => void;
+}
+
+export interface CartContextProviderProps {
+  children: React.ReactNode;
+}
+
+
