@@ -19,7 +19,7 @@ export const Card = () => {
   }, []);
 
   const handleAddItemCart = () => {
-    
+
   }
 
   return (
@@ -36,7 +36,7 @@ export const Card = () => {
             style:"currency",
             currency: 'BRL'
         })}</strong>
-        <button>
+        <button onClick={()=> handleAddItemCart} >
             <BsCartPlus size={20}/>
         </button>
       </div>
